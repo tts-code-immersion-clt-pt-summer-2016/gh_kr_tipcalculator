@@ -1,3 +1,7 @@
+# Rock Paper Scissors Program
+# By Gerrick Hilliard and Kevin Rocker
+# For TTS Code Immersion, Part-Time, Summer 2016
+
 def tip_amount(bill)
   return bill * 0.20
 end
