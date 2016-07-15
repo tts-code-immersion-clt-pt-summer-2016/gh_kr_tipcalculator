@@ -10,7 +10,9 @@ def total_with_grat(pocahontas)
   return pocahontas + tip_amount(pocahontas)
 end
 
-bill_amount = 100
+print "Enter bill amount: "
+bill_amount = gets.chomp.to_f
+
 bill_tip = tip_amount(bill_amount)
 bill_total = total_with_grat(bill_amount)
 
